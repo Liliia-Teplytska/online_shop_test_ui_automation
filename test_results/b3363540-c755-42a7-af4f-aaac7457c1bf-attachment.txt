@@ -1,0 +1,43 @@
+
+-----
+Test: tests/test_order_online_shop.py::TestOrderOnlineShop::test_order (call)
+Browser: Google Chrome 113.0.5672.127
+Time: 2023-06-01 09:02:04.781952
+Test: Authorization
+
+
+OK! Incorrect login: message about failed login is present.
+OK! Correct login and password: authorization was successful.
+
+-----
+Test: tests/test_order_online_shop.py::TestOrderOnlineShop::test_order (call)
+Browser: Google Chrome 113.0.5672.127
+Time: 2023-06-01 09:02:06.428877
+Test: Sorting by price
+
+OK! Product filtered from low to high price correctly.
+
+-----
+Test: tests/test_order_online_shop.py::TestOrderOnlineShop::test_order (call)
+Browser: Google Chrome 113.0.5672.127
+Time: 2023-06-01 09:02:06.895537
+Test: Add products to the cart and check
+
+Added products to cart: Sauce Labs Onesie ($7.99), Test.allTheThings() T-Shirt (Red) ($15.99)
+OK! Your cart is opened.
+Name of products in the cart: Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)
+Price of products in the cart: $7.99, $15.99
+OK! Your cart is correct.
+
+-----
+Test: tests/test_order_online_shop.py::TestOrderOnlineShop::test_order (call)
+Browser: Google Chrome 113.0.5672.127
+Time: 2023-06-01 09:02:07.614268
+Test: Confirm and complete the order
+
+OK! Products on the order confirmation page are correct!
+Total sum is $23.98
+OK! Total sum of added product is correct!
+OK! The order is complete!
+
+Test of placing the order in the online shop passed successfully!!!
