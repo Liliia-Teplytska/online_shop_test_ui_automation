@@ -9,6 +9,7 @@ The project utilizes Python, Pytest, and Selenium for automated smoke testing.
 The tests are designed to verify the functionality and user experience of the online shop. 
 The test results are recorded and presented in an Allure report, providing comprehensive 
 information about test execution.
+The tests involve checking the functionality of the website in the Google Chrome browser.
 
 ### Test Coverage
 
@@ -47,6 +48,8 @@ Make sure you have the following installed:
 - Pytest
 - Selenium
 - Allure Command Line Interface (CLI)
+
+Note: The tests were carried out using the Google Chrome browser (version 113.0.5672.127).
 
 ## Contact
 
